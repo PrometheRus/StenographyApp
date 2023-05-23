@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.*?>
+
+<GridPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8"
+          fx:controller="stenography.FXMLController" stylesheets="/css/cssStyles.css" styleClass="gridPane">
+
+    <Button text="Encrypt a message" GridPane.columnIndex="1" GridPane.rowIndex="1" fx:id="hideButton"
+            onMouseClicked="#handleCommandButtonAction" styleClass="buttonStyle"/>
+
+    <Button text="Decrypt a message" GridPane.columnIndex="1" GridPane.rowIndex="2" fx:id="showButton"
+            onMouseClicked="#handleCommandButtonAction" styleClass="buttonStyle"/>
+
+    <Button text="Exit" GridPane.columnIndex="1" GridPane.rowIndex="3" fx:id="exitButton"
+            onMouseClicked="#handleCommandButtonAction" styleClass="buttonStyle"/>
+
+</GridPane>

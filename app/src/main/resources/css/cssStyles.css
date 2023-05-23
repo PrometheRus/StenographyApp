@@ -1,0 +1,22 @@
+.buttonStyle {
+    -fx-color: red;
+}
+
+.gridPane {
+    -fx-alignment: BASELINE_CENTER;
+    -fx-vgap: 10;
+    -fx-padding: 100px 50px;
+    -fx-font-size: 20px;
+    -fx-font-family: Ubuntu, Serif;
+}
+
+.myAlerts{
+    -fx-background-color: #f9d900;
+}
+.myAlerts > *.button-bar > *.container{
+    -fx-background-color: #a9e200;
+}
+.myAlerts > *.label.content{
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+}
